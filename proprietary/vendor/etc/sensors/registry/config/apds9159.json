@@ -1,0 +1,81 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "QRD", "HDK"],
+    "soc_id": [ "400" ]
+  },
+    "apds9159":{
+    "owner": "sns_apds9159",
+    ".ambient_light":{
+      "owner": "sns_apds9159",
+      ".config":{
+        "owner": "sns_apds9159",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "1",
+          "data": "1"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".proximity":{
+      "owner": "sns_apds9159",
+      ".config":{
+        "owner": "sns_apds9159",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "1",
+          "data": "1"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".tuning_param":{
+      "owner": "sns_apds9159",
+      "ir_factor":{ "type": "flt", "ver": "0",
+        "data": "0.5"
+      },
+      "lux_factor":{ "type": "flt", "ver": "0",
+        "data": "990"
+      },
+      "lux_factor_non_ir":{ "type": "flt", "ver": "0",
+        "data": "990"
+      },
+      "apers":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "ppulse":{ "type": "int", "ver": "0",
+        "data": "32"
+      },
+      "ps_vcsel":{ "type": "int", "ver": "0",
+        "data": "5"
+      },
+      "pgain":{ "type": "int", "ver": "0",
+        "data": "0x0"
+      },
+      "ppers":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "cal_thresh":{ "type": "int", "ver": "0",
+        "data": "500"
+      },
+      "offset":{ "type": "int", "ver": "3",
+        "data": "177"
+      },
+      "hysteresis":{ "type": "int", "ver": "2",
+        "data": "66"
+      }
+    }
+  }
+}

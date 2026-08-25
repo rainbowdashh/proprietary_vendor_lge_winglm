@@ -1,0 +1,4 @@
+service vendor.lge-motor-hal-1-0-popupcam /vendor/bin/hw/vendor.lge.hardware.motor@1.0-service-popupcam
+    class hal
+    user system
+    group system

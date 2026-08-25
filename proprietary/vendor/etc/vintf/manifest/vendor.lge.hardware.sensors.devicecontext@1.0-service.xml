@@ -1,0 +1,9 @@
+<manifest version="1.0" type="device">
+    <!-- LGE DeviceContext HAL service -->
+    <hal format="hidl">
+        <name>vendor.lge.hardware.sensors.devicecontext</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IDevicecontext/default</fqname>
+    </hal>
+</manifest>
+
