@@ -716,6 +716,7 @@ PRODUCT_PACKAGES += \
     libprmclient \
     libremosaic_wrapper \
     libsns_device_context_prox \
+    libsns_device_context_stub \
     libsymphony-cpu \
     vendor.lge.hardware.sensors.devicecontext@1.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
